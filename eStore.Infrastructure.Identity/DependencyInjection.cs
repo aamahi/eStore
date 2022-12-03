@@ -10,7 +10,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
-
 namespace eStore.Infrastructure.Identity
 {
     public static class DependencyInjection
@@ -81,6 +80,5 @@ namespace eStore.Infrastructure.Identity
                 };
             });
         }
-
     }
 }
