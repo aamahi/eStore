@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace eStore.Application.DTOs
-{
+namespace eStore.Application.DTOs{
     public class Envelope<T>
     {
         public string Status { get; set; }
