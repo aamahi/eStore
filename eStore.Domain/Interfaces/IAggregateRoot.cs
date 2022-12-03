@@ -4,6 +4,5 @@ using System.Text;
 
 namespace eStore.Domain.Interfaces
 {
-    public interface IAggregateRoot
-    { }
+    public interface IAggregateRoot { }
 }
